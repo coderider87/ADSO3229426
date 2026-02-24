@@ -27,6 +27,9 @@ function mostrarDia() {
         case 8:
             dia = "Festivo";
             break;
+        case 9:
+            dia = "otro dia";
+            break;
         default:
             dia = "Número inválido. Debe ser entre 1 y 7.";
     }
